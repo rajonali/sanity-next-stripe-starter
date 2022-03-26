@@ -5,7 +5,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <main>
-        <h1>My Blog</h1>
+      <h1>My Blog and <Link href="/merch"><a>Merch Store</a></Link></h1>
         <hr />
         <ul>
           {posts.map((p) => (
